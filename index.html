@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solar System Distance Guesser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Solar System Distance Guesser</h1>
+
+        <div id="question">
+            <p>How far is it from <span id="planet1"></span> to <span id="planet2"></span> (in millions of kilometers)?</p>
+        </div>
+
+        <input type="number" id="guess" placeholder="Your Guess">
+        <button id="submitGuess">Submit Guess</button>
+
+        <div id="feedback"></div>
+        <div id="score">Score: <span id="scoreValue">0</span></div>
+        <button id="newGame">New Game</button>
+
+        <div id="information">
+            <p>Distances are average distances in millions of kilometers. Good luck!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
